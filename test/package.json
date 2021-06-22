@@ -1,19 +1,20 @@
 {
-  "name": "git_test",
+  "name": "test",
   "version": "1.0.0",
-  "description": "Learning Node.js",
+  "description": "Learning node.js",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shubhangim712/Full_Stack_Development_Coursera.git"
+    "url": "https://github.com/shubhangim712/Full_Stack_Development_Coursera/tree/main/test"
   },
   "author": "ShubhangiM",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/shubhangim712/Full_Stack_Development_Coursera/issues"
-  },
-  "homepage": "https://github.com/shubhangim712/Full_Stack_Development_Coursera#readme"
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
